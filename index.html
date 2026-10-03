@@ -168,4 +168,174 @@
 
   <script src="script.js"></script>
 </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashok Siyol | Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts & FontAwesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">Ashok<span>.dev</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#contact" class="btn-nav">Contact Me</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <span class="badge">Available for freelance projects</span>
+      <h1>Hi, I'm <span>Ashok Siyol</span></h1>
+      <h2>Web Developer & Digital Solutions Specialist</h2>
+      <p>I build high-performing, mobile-responsive websites for growing businesses, local shops, and global clients to turn visitors into loyal customers.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-subtitle">Crafting modern web experiences tailored to your business needs.</p>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I specialize in creating custom digital solutions that help local brands and small businesses establish a strong online presence. Whether you need a crisp landing page, an e-commerce platform for your shop, or a complete website redesign, I write clean, SEO-optimized code that delivers results.</p>
+          
+          <div class="stats-grid">
+            <div class="stat-card">
+              <h3>20+</h3>
+              <p>Websites Delivered</p>
+            </div>
+            <div class="stat-card">
+              <h3>100%</h3>
+              <p>Client Satisfaction</p>
+            </div>
+            <div class="stat-card">
+              <h3>Fast</h3>
+              <p>Turnaround Time</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2 class="section-title">What I Do</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <i class="fa-solid fa-store"></i>
+          <h3>Local Shop Websites</h3>
+          <p>Digital storefronts with local SEO, custom product showcase, location maps, and quick contact buttons.</p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-briefcase"></i>
+          <h3>Business Websites</h3>
+          <p>Professional, trustworthy web setups designed to generate leads and present service offerings seamlessly.</p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-mobile-screen"></i>
+          <h3>Responsive Design</h3>
+          <p>Flawless design on iPhones, Android devices, tablets, and desktops with speed optimization.</p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-wrench"></i>
+          <h3>Website Redesign & Repair</h3>
+          <p>Modernizing outdated sites, fixing layout issues, improving speed, and handling maintenance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-content">
+            <span class="project-tag">Local Business</span>
+            <h3>Retail Store Storefront</h3>
+            <p>Custom mobile-ready site with integrated WhatsApp ordering for a local retail outlet.</p>
+            <a href="#" class="project-link">View Details <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-content">
+            <span class="project-tag">Corporate</span>
+            <h3>Service Business Hub</h3>
+            <p>Fast-loading multi-page website featuring appointment booking and automated client inquiry forms.</p>
+            <a href="#" class="project-link">View Details <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-content">
+            <span class="project-tag">E-Commerce</span>
+            <h3>Shop Product Catalog</h3>
+            <p>Lightweight JavaScript product gallery filtering items by category for easy browsing.</p>
+            <a href="#" class="project-link">View Details <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Let's Work Together</h2>
+      <p class="section-subtitle">Have a project in mind for your shop or business? Send me a message!</p>
+      
+      <div class="contact-wrapper">
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="5" placeholder="Tell me about your business website needs..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; <span id="year"></span> Ashok Siyol. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
